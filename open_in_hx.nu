@@ -22,7 +22,12 @@ def main [...files: string] {
     if ($files == []) { return }
     
     let helix_port = (get-helix-port)
-    
+    # Focus Helix pane via zjide-manager plugin not necessary but improves workflow a lot
+    # try {
+    #     ^zellij pipe -n "focus-pane" -- "Editor"
+    # } catch {
+    #     print "Focus Failed"
+    # }
     for file in $files {
         let abs_path = ($file | path expand | str trim)
         if not ($abs_path | path exists) { return }
