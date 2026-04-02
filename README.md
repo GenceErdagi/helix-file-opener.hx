@@ -103,6 +103,11 @@ External Tool ──TCP──► helix-server
 - `helix-server` — TCP server framework
 - `notify` — [notify.hx](https://github.com/chuwy/notify.hx) for error popups
 
+## Acknowledgments
+
+- [@mattwparas](https://github.com/mattwparas/) for [Steel](https://github.com/mattwparas/steel) and the Helix plugin system
+- [@chuwy](https://github.com/chuwy/) for [notify.hx](https://github.com/chuwy/notify.hx) which powers error and warning notifications
+
 ## License
 
 MIT
